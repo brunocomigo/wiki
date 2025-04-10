@@ -1,0 +1,43 @@
+MultiBusiness Produção Externo
+******************************************
+
+Publicar Business Homologação
+
+IMPORTANTE: estou mandando na realidade a aplicação multibusiness (novo business) de produção mas por falta de domínio disponível o mesmo deve ser publicado no ambiente de homologação do business antigo... ou seja, no final das contas essa aplicação deve ser acessada no link (https://businesshml.comigo.com.br:45015/)
+
+
+Multiservice WS (producao)
+******************************************
+
+Publicar Multiservice Produção (https://multiservices.comigo.com.br:45018)
+
+
+
+Business WS (producao)
+******************************************
+
+Publicar Business Webservice de Produção (https://servicesbusiness.comigo.com.br:45004)
+
+
+Liberar link para acesso
+******************************************
+
+Descricao: EXE ‑ LIBERAÇÃO LINK WEB ‑ SDE T.I DSV
+
+
+Preciso da liberação do domínio "https://comigo.coop.br/wp-json/wp/v2/" no servidor wbs-001 para que a aplicação Multiservices consiga fazer requisição http para o mesmo.
+ 
+domínio: https://comigo.coop.br/wp-json/wp/v2/
+aplicação: \\wbs-001\WebServices$\WServices\Multiservices
+ 
+ 
+Exemplo de aplicação e domínio que funciona atualmente:
+ 
+ 
+domínio: http://apiadvisor.climatempo.com.br/api/v1/forecast
+aplicação: \\wbs-001\WebServices$\WServices\wsBusinessProcessos
+ 
+ 
+Atualmente para aplicação e domínio pretendido a tentativa de requisição devolve o seguinte erro:
+ 
+"Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.."
